@@ -13,7 +13,7 @@ primary key (ma)
 )
 
 drop table lop
-
+ 
 create table lop(
 ma_lop int identity,
 ten_lop nvarchar(50),
