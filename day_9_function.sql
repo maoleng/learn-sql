@@ -8,7 +8,7 @@ end
 
 select dbo.cong(5,6) as 'pheptinhcong'
 ----------------------------
-
+ 
 drop database sinh_vien
 create database sinh_vien
 use sinh_vien
