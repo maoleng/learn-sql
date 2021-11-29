@@ -1,7 +1,7 @@
 create database sinh_vien
 use sinh_vien
 
-drop table lop
+drop table lop 
 create table lop(
 ma_lop int identity,
 ten_lop nvarchar(50),
