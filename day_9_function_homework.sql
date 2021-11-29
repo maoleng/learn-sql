@@ -20,7 +20,7 @@ ma_lop int
 primary key (ma_sinh_vien),
 foreign key (ma_lop) references lop(ma_lop)
 )
-
+ 
 insert into lop
 values ('KHMT'), ('ATTT'), ('MMT'), ('Hack')
 
