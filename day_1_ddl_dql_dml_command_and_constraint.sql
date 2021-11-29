@@ -2,7 +2,7 @@
 use quan_ly_khach_hang
 
 drop table khach_hang
-create table khach_hang(
+create table khach_hang( 
 ma int identity,
 ho_ten nvarchar(50) not null,
 so_dien_thoai char(15),
