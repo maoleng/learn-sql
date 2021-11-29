@@ -9,7 +9,7 @@ so_chan int,
 ngay_sinh date default getdate(),
 moi_truong_song nvarchar(50),
 )
-drop table dong_vat
+drop table dong_vat 
 
 insert into dong_vat
 values ('Voi', 4, '2019-05-03', N'Cạn'), (N'Cá', 0,'2015-05-02', N'Nước'), (N'Hươu', 4, '2010-05-01',N'Cạn'), ('Heo',4,default,N'Cạn' ), (N'Khỉ',2,  default,N'Cạn'),('Voi', 4,  '2002-05-03',N'Cạn'),(N'Cá', 0,'2013-05-02', N'Nước')
