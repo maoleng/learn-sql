@@ -8,7 +8,7 @@ ma int identity unique not null,
 hoTen nvarchar(50) not null,
 diemLanMot float,
 diemLanHai float,
-primary key (ma)
+primary key (ma) 
 )
 --Với điều kiện:
 --điểm không được phép nhỏ hơn 0 và lớn hơn 10
