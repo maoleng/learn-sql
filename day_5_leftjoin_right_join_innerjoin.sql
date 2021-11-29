@@ -25,7 +25,7 @@ gia int
 create table hoaDon(
 maKhachHang ,
 maSanPham ,
-ngayMua
+ngayMua 
 soLuong
 )
 
