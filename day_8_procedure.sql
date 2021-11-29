@@ -31,7 +31,7 @@ drop procedure xem_sinh_vien
 create procedure xem_sinh_vien
 @ma int = -1,
 @ma_lop int = -1
-as
+as 
 begin
 	select * from sinh_vien
 	where ma = @ma or ma_lop = @ma_lop
