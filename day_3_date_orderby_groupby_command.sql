@@ -30,7 +30,7 @@ values (120,N'Lộc','2003-05-10',1,'2022-05-05', 'IT'), (150,'Long', '1999-10-0
 --2/Tháng này sinh nhật sếp, sếp tăng lương cho nhân viên sinh tháng này thành 100. )
 update nhan_vien
 set luong = 100
-where month(ngay_vao_lam) = month(getdate())
+where month(ngay_vao_lam) = month(getdate()) 
 --*tăng lương cho mỗi bạn thêm 100
 update nhan_vien set luong+= 100 
 
