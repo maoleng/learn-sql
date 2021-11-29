@@ -10,7 +10,7 @@ ma_sinh_vien int identity,
 ten_sinh_vien nvarchar(50),
 gioi_tinh bit default 0,
 ma_lop int,
-ma_mon int,
+ma_mon int, 
 foreign key (ma_mon) references mon(ma_mon),
 foreign key (ma_lop) references lop(ma_lop),
 primary key (ma_sinh_vien)
